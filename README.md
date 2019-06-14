@@ -18,7 +18,7 @@ Para el desarrollo de los cálculos entre trenzas utilizaremos un software de co
 
 ## Comenzando 🚀
 
-Toda la teoría requerida se desarrolla en el PDF *Trenzas y Criptografía*.
+Toda la teoría requerida se desarrolla en el [PDF](https://github.com/rafafrdz/braids-and-cryptography/blob/master/Trenzas%20y%20Criptograf%C3%ADa.pdf) *Trenzas y Criptografía*.
 
 
 ### Pre-requisitos 📋
