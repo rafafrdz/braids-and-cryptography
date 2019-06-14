@@ -120,7 +120,7 @@ Este repositorio es libre y gratuito. Su finalidad es puramente académico y est
 
 _Se agradece la reseña o cita del autor, de su trabajo y del propio repositorio en los trabajos a los que haya aportado algo de luz y conocimiento._
 
-**Rafael Fernández Ortiz**.- 	:briefcase: [*LinkedIn*](https://www.linkedin.com/in/rafael-fern%C3%A1ndez-ortiz-7a1684171/) - ​<img src="https://img.icons8.com/color/20/000000/open-envelope.png">​ ​[Gmail](rafaelfernandezortiz@gmail.com) - ​<img src="https://img.icons8.com/color/20/000000/cardboard-box.png">​ [GitHub](https://github.com/rafafrdz) - :bookmark_tabs: [Cv](https://rafafrdz.github.io/) 
+**Rafael Fernández Ortiz**.- 	:briefcase: [*LinkedIn*](https://www.linkedin.com/in/rafael-fern%C3%A1ndez-ortiz-7a1684171/) - ​<img src="https://img.icons8.com/color/20/000000/open-envelope.png">​ ​[Gmail](mailto:rafaelfernandezortiz@gmail.com) - ​<img src="https://img.icons8.com/color/20/000000/cardboard-box.png">​ [GitHub](https://github.com/rafafrdz) - :bookmark_tabs: [Cv](https://rafafrdz.github.io/) 
 
 ## Expresiones de gratitud  y/o sugerencias <img src="https://img.icons8.com/color/48/000000/beer.png">
 
