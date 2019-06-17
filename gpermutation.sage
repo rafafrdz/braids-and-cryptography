@@ -1,4 +1,4 @@
-
+load("braid_permutation.sage")
 n = #Parametro a determinar
 B = BraidGroup(n)
 def gpermutation(w,v):
