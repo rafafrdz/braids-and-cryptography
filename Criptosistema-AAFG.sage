@@ -3,17 +3,17 @@ from functools import *
 from time import *
 
 orden = 5  # fijamos el orden de Bn, por defecto
-def CrypSysAAFG(n = orden):
+def CrypSysAAFG(n = orden, numGeneradores = 5, r = 3):
     B = BraidGroup(n)
     def Alicia():
-        ga = list(map(lambda x: list(map(lambda x: randint(1, n-1), range(randint(5, 10)))), range(10)))
-        xt = list(map(lambda x: choice(ga), range(20)))
+        ga = list(map(lambda x: list(map(lambda x: randint(1, n-1), range(randint(5, 10)))), range(r)))
+        xt = list(map(lambda x: choice(ga), range(numGeneradores)))
         a = B(list(reduce((lambda a,b: a+b),xt)))
         indxa = [ i for x in xt for i in range(len(ga))  if ga[i]==x]
         return ga, xt, a, indxa
     def Bob():
-        gb = list(map(lambda x: list(map(lambda x: randint(1, n-1), range(randint(5, 10)))), range(10)))
-        yk = list(map(lambda x: choice(gb), range(20)))
+        gb = list(map(lambda x: list(map(lambda x: randint(1, n-1), range(randint(5, 10)))), range(r)))
+        yk = list(map(lambda x: choice(gb), range(numGeneradores)))
         b = B(list(reduce((lambda a,b: a+b),yk)))
         indxb = [ i for y in yk for i in range(len(gb))  if gb[i]==y]
         return gb, yk, b, indxb
@@ -41,8 +41,8 @@ def CrypSysAAFG(n = orden):
     claveCompartida = generaClaveCompartida()
     return claveCompartida
 
-def benchmark(m=orden):
+def benchmark(m=orden, r = 3, k = 5):
     t0 = time()
-    CrypSysAAFG(m)
+    CrypSysAAFG(m,k,r)
     t1=time()
     return(t1-t0)
